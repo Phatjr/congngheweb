@@ -49,8 +49,8 @@
 }
 
 .row .btn {
-    margin-left: 130px;
     margin-top: 50px;
     border: 1px solid black;
     color: black;
+    display: inline-block;
 }

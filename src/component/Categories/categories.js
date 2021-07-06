@@ -48,11 +48,13 @@ const categories = () => {
       </div>
       <div className="row">
         {mockData.map((item, index) => (
-          <div className="col-md-4">
+          <div className="col-md-4" key={index}>
             <div className={`categories_item mt-2 item-${index % 3}`}>
               <p className="text-white">{item.title}</p>
               <img src={item.img} alt="" />
-              <div className="btn btn-primary">Shop now</div>
+              <div className="w-100 d-flex">
+                <div className="btn btn-primary">Shop now</div>
+              </div>
             </div>
           </div>
         ))}

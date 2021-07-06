@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Login from '../Login/Login'
 
 import "./navbar.css"
-const navabar = () => {
+const Navbar = (props) => {
+    const [open, setOpen] = useState(false)
+
+    const openModal = () => {
+        setOpen(!open)
+    }
+
+    console.log(open);
 
     return (
         <section className="navbar d-flex justify-content-between align-items-center">
@@ -14,10 +22,11 @@ const navabar = () => {
                 <li>How it works</li>
                 <li>Categories</li>
                 <li>Testimony</li>
-                <li>Sign up</li>
+                <li onClick={openModal}>Sign up</li>
             </ul>
+            <Login openModal={open} />
         </section>
     )
 }
 
-export default navabar
+export default Navbar
