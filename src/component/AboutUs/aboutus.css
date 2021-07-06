@@ -1,0 +1,47 @@
+
+.About-left{
+    margin-top: 200px;
+    font-family: Times;
+}
+.About-left .Text1{
+    font-weight: regular;
+    font-size: 25px;
+    line-height: 10px;
+    margin-bottom: 50px;
+}
+.About-left .Text2{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.About-left .Text3{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    float: left;
+    align-items: center;
+}
+.About-left .Text3 p{
+    margin-top: 20px;
+}
+.About-right .image1 img{
+    margin: -300px 0 0 0;
+    float: right;
+    margin-right: 30px;
+    z-index: 2;
+    position: relative;
+}
+.About-right .image2 img{
+   float: right;
+   margin-left: 950px;
+   margin-top: -950px;
+   height: 1000px;
+   width: 400px;
+   
+}

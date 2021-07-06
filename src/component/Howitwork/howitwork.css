@@ -1,0 +1,31 @@
+.work .text3 {
+    margin-top: 700px;
+}
+.text3 h2 { 
+    width:50%; text-align:left; border-bottom: 1px solid #000; line-height:0.1em; margin:10px 0 20px; 
+} 
+.text3 h2 span { 
+    background:#fff; padding:10px 10px;
+}
+.text3 p{
+    margin-left: 700px;
+    margin-top: -80px;
+    font-size: 70px;
+    color: rgba(34, 34, 34, 0.1);
+    float: left;
+}
+.work .image6{
+    margin-top: 100px;
+    margin-left: 180px;
+}
+.work .text4{
+    width: 150px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px; 
+    margin-left: 550px;
+}
