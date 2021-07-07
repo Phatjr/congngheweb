@@ -17,7 +17,7 @@
 }
 .About-left .Text3{
     width: 150px;
-    height: 35px;
+    height: 32px;
     border-radius: 5px;
     background-color: orange;
     color: white;
@@ -44,4 +44,21 @@
    height: 1000px;
    width: 400px;
    
+}
+
+.Text3 button:hover {
+    color: #daa520;
+}
+
+.Text3 button {
+    text-transform: uppercase;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: ease 0.5s all;
+}
+
+.Text3 button:hover {
+    background-color: #daa520;
+    color: #fff;
+    border: 1px solid #daa520;
 }

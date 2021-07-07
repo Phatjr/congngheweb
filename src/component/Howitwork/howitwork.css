@@ -21,11 +21,29 @@
 .work .text4{
     width: 150px;
     height: 30px;
-    background-color: orange;
     color: white;
     position: relative;
     text-align: center;
     font-size: 14px;
     margin-top: 50px; 
     margin-left: 550px;
+}
+
+.text4 button:hover {
+    color: #daa520;
+}
+
+.text4 button {
+    text-transform: uppercase;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: ease 0.5s all;
+    width: 220px;
+    height: 25px;
+}
+
+.text4 button:hover {
+    background-color: #daa520;
+    color: #fff;
+    border: 1px solid #daa520;
 }

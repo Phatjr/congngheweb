@@ -7,18 +7,37 @@ const Login = ({ openModal }) => {
         <div className={openModal ? 'login' : 'login d-none'}>
             <div className="d-flex">
                 <div className="col-md-6 login-left">
+                    <div className="login-username sign-in-container d-flex justify-content-center align-items-center">
+                        <form action="#">
+                            <h1>Sign in</h1>
+                            <span>or use your account</span>
+                            <input type="email" placeholder="Email" />
+                            <input type="password" placeholder="Password" />
+                            <a href="a">Forgot your password?</a>
+                            <button>Sign In</button>
+                        </form>
+                    </div>
                 </div>
-                <div className="col-md-6 login-right">
-                    <div className="login-username d-flex justify-content-center align-items-center">
-                        <img src="https://freesvg.org/img/abstract-user-flat-1.png" alt="" width="10%" />
-                        <input className="form-control" placeholder="Username or email" />
-                    </div>
-                    <div className="login-password d-flex justify-content-center align-items-center">
-                        <img src="https://www.clipartmax.com/png/middle/426-4262867_svg-png-icon-free-room-keys-icon.png" alt="" width="10%" />
-                        <input className="form-control" placeholder="password" type="password" />
-                    </div>
+                <div className="or">
+                    <h2>OR</h2>
+                </div>
+                <div className="sign-up signup-container col-md-6 login-right">
+                    <form action="a">
+                        <h1>Create Account</h1>
+                        <div class="social-container">
+                            <a href="https://www.facebook.com/" class="social"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://accounts.google.com/" class="social"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="https://www.linkedin.com/" class="social"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <span>or use your email for registration</span>
+                        <input type="text" placeholder="Name" />
+                        <input type="email" placeholder="Email" />
+                        <input type="password" placeholder="Password" />
+                        <button>Sign Up</button>
+                    </form>
                 </div>
             </div>
+
         </div>
     )
 }

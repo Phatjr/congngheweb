@@ -6,7 +6,7 @@ import Categories from './component/Categories/categories'
 import Testimony from './component/Testimony/testimony'
 import Subscribe from './component/Subscribe/subscribe'
 import Footer from './component/Footer/footer'
-import Login from './component/Login/Login'
+import Login from './component/Login/login'
 function App() {
   return (
     <section className="container position-relative">

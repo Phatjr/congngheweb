@@ -15,7 +15,7 @@ const aboutus = () => {
                     <p>Right Place</p>
                 </div>
                 <div className="Text3">
-                    <p>Explore Furniture</p>
+                    <button>Explore Furniture</button>
                 </div>
             </div>
             <div className="About-right">

@@ -13,7 +13,7 @@ const howitwork = () => {
                 <img src="images/nen7.png" alt="logo" />
             </div>
             <div className="text4">
-                <p>Get Personalized Now</p>
+                <button>Get Personalized Now</button>
             </div>
         </div>
     )
