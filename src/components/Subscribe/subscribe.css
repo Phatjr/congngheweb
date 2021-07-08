@@ -1,0 +1,21 @@
+.subscribe{
+    margin-top: 500px;
+}
+.subscribe .text7 h2 p{
+    float: left;
+}
+.placeholder {
+    text-align: center;
+    margin-left: 500px;
+    margin-top: -60px;
+}
+.placeholder #mail{
+    width: 200px;
+    height: 40px;
+    border: 1px solid orange; 
+    border-radius: 5px;
+}
+.placeholder .button{
+    background-color: orange;
+    color: white;
+}

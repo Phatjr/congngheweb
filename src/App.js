@@ -1,13 +1,4 @@
 import React from "react"
-import Navbar from "../components/Navbar/navabar"
-import About from "../components/AboutUs/aboutus"
-import Home from "../components/Home/home"
-import Howitwork from "../components/Howitwork/howitwork"
-import Categories from "../components/Categories/categories"
-import Testimony from "../components/Testimony/testimony"
-import Subscribe from "../components/Subscribe/subscribe"
-import Footer from "../components/Footer/footer"
-import Homelogin from "../components/Homelogin/homelogin"
 import Signup from "./Signup"
 import { Container } from "react-bootstrap"
 import { AuthProvider } from "../contexts/AuthContext"
@@ -24,16 +15,7 @@ function App() {
       className="d-flex align-items-center justify-content-center"
       style={{ minHeight: "100vh" }}
     >
-      <div className="container position-relative">
-        <Navbar />
-      <About />
-      <Home />
-      <Howitwork />
-      <Categories />
-      <Testimony />
-      <Subscribe />
-      <Footer />
-      <Homelogin />
+      <div className="w-100" style={{ maxWidth: "400px" }}>
         <Router>
           <AuthProvider>
             <Switch>
